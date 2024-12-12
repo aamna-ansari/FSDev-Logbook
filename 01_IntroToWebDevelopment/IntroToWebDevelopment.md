@@ -22,6 +22,8 @@
   - [Email] (mailto:saifullahkhan72437@gmail.com)
 
 ## What is the Web?
+![](/images/webD)
+
 - A system of interconnected documents and resources, linked by hyperlinks, and accessible over the internet.
 - Websites and web apps are designed to provide content or services to users through web browsers.
 
