@@ -61,6 +61,22 @@ Sets of Rules to send Data
 
    - **Modem**: A device that modulates and demodulates signals for internet connectivity. Modems convert digital data from a computer into analog signals for transmission over telephone lines or cable, and vice versa. There are different types of modems, including dial-up modems, cable modems, and DSL modems, which vary in speed and technology.
 
+   # Router vs Modem: Comparison
+
+| Feature                | **Modem**                                              | **Router**                                               |
+|------------------------|--------------------------------------------------------|----------------------------------------------------------|
+| **Main Purpose**        | Connects your home to the internet.                   | Distributes the internet connection to multiple devices. |
+| **Function**            | Converts ISP signals into usable data for your devices. | Routes data between the modem and devices in your home.  |
+| **Connection Type**     | Directly connects to your ISP (Internet Service Provider). | Connects to the modem and shares the internet within your network. |
+| **Local Network**       | Does not create a local network.                       | Creates and manages the local network (wired and wireless). |
+| **Internet Sharing**    | Only one device can connect to the internet at a time. | Multiple devices can connect and share the internet.    |
+| **Example**             | A cable or DSL modem bringing the internet into your home. | A Wi-Fi router that connects multiple devices (e.g., laptops, phones) to the internet. |
+
+---
+
+
+   
+
    - **Layers**: In networking, layers refer to the different levels of protocol functionality that work together to enable communication. The OSI (Open Systems Interconnection) model and TCP/IP model are the two most widely used reference models. Each layer is responsible for specific tasks, such as data transmission, error checking, and addressing, ensuring that communication is reliable and efficient.
    ![](/images/OSI-Model-1024x642.webp)
 
