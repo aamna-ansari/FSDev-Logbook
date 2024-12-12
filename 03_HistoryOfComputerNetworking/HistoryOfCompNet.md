@@ -62,6 +62,7 @@ Sets of Rules to send Data
    - **Modem**: A device that modulates and demodulates signals for internet connectivity. Modems convert digital data from a computer into analog signals for transmission over telephone lines or cable, and vice versa. There are different types of modems, including dial-up modems, cable modems, and DSL modems, which vary in speed and technology.
 
    - **Layers**: In networking, layers refer to the different levels of protocol functionality that work together to enable communication. The OSI (Open Systems Interconnection) model and TCP/IP model are the two most widely used reference models. Each layer is responsible for specific tasks, such as data transmission, error checking, and addressing, ensuring that communication is reliable and efficient.
+   ![](/images/OSI-Model-1024x642.webp)
 
    - **TCP/IP**: The suite of communication protocols that governs the internet. TCP (Transmission Control Protocol) ensures reliable data transmission by establishing a connection between sender and receiver and ensuring that data is received correctly. IP (Internet Protocol) handles addressing and routing, ensuring that data packets reach the correct destination. Together, TCP and IP form the foundation of internet communication.
 
