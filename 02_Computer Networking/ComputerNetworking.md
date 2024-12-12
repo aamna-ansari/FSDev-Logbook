@@ -12,8 +12,6 @@
 8. [What is a Client and Server?](#what-is-a-client-and-server)
 9. [What is www.facebook.com? (Domain)](#what-is-wwwfacebookcom-domain)
 10. [What is www.google.com?](#what-is-wwwgooglecom)
-11. [Brief History of Networking](#brief-history-of-networking)
-
 ---
 
 ## 1. Introduction
@@ -103,11 +101,5 @@
 
 ---
 
-## 11. Brief History of Networking
- ![](/images/hisofnetworking.jpg)
-- Networking began with ARPANET in the 1960s, connecting computers over long distances.
-- It evolved into the modern internet with the development of protocols like TCP/IP.
-
----
 
 This structure includes the table of contents and definitions for all the topics. Let me know if you'd like further details or edits!
