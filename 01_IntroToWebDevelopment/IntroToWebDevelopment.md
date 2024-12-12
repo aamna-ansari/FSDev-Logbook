@@ -19,7 +19,7 @@
 - You can connect with him:
   - [LinkedIn](https://www.linkedin.com/in/saifullah-khan-4aa554231/)
   - [GitHub](https://github.com/saifullah72437)
-  - Email: saifullahkhan72437@gmail.com
+  - [Email] (mailto:saifullahkhan72437@gmail.com)
 
 ## What is the Web?
 - A system of interconnected documents and resources, linked by hyperlinks, and accessible over the internet.
@@ -35,7 +35,12 @@
 
 ## Breaking a Web App
 - In this course, we'll break down web applications into smaller, manageable pieces to better understand their architecture.
-- This approach will help you build efficient, scalable applications.
+- A web application typically consists of:
+  - **Frontend**: The part of the application that users interact with, such as the user interface (UI).
+  - **Backend**: The server-side logic that processes requests and handles data.
+  - **Data Engineering**: Managing, structuring, and optimizing the data that flows between the backend and databases.
+- A developer who can work on all these areas is called a **Full Stack Developer**.
+
 
 ## What is Full Stack Web Development?
 - Full-stack development involves working on both the front-end (client-side) and back-end (server-side) of a web application.
