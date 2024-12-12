@@ -13,8 +13,6 @@
 9. [What is www.facebook.com? (Domain)](#what-is-wwwfacebookcom-domain)
 10. [What is www.google.com?](#what-is-wwwgooglecom)
 11. [Brief History of Networking](#brief-history-of-networking)
-12. [The Need for an Address](#the-need-for-an-address)
-13. [The Client-Server Model](#the-client-server-model)
 
 ---
 
