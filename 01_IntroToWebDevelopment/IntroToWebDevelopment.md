@@ -19,7 +19,7 @@
 - You can connect with him:
   - [LinkedIn](https://www.linkedin.com/in/saifullah-khan-4aa554231/)
   - [GitHub](https://github.com/saifullah72437)
-  - [Email] (mailto:saifullahkhan72437@gmail.com)
+  - [Email](mailto:saifullahkhan72437@gmail.com)
 
 ## What is the Web?
 ![](/images/webD)
