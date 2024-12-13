@@ -6,6 +6,7 @@ This repository tracks my journey through the Full-Stack Engineering course. It 
 
 1. [Intro to Web Development](/01_IntroToWebDevelopment/IntroToWebDevelopment.md)
 2. [Computer Networking Basics](./02_Computer%20Networking/ComputerNetworking.md)
+   - [History Of Computer Network](./03_HistoryOfComputerNetworking/HistoryOfCompNet.md)
 3. [Frontend Development](#3-frontend-development)
    - [HTML and CSS](#html-and-css)
    - [JavaScript](#javascript)
