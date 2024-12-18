@@ -22,6 +22,6 @@
 ![](./select.gif)
 
 ## Form
-![](./form.PNG)
+![](./form.gif)
 
 
