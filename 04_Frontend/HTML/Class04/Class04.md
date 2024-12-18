@@ -51,3 +51,6 @@ used to specify how many columns a table cell should span across
 
 ### `<rowspan>`
 used to specify how many rows a table cell should span across
+
+# Table
+![](/images/table.PNG)
