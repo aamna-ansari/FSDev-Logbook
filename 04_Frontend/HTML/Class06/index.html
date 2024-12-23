@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML MEDIA</title>
+  <link rel="shortcut icon" href="./pics/favicon_io/android-chrome-512x512.png" type="image/x-icon">
+</head>
+<body>
+  <h3>Images, (first without lazy loading, second with lazy loading)</h3>
+  <div style="display: flex; justify-content: space-around;">
+    <img src="./pics/fighter plane.jpg" alt="Fighter Plane" width="400px">
+    <img loading="lazy" width="400px" src="./pics/wp12792720-fighter-plane-4k-wallpapers.jpg" alt="Another plane">
+  </div>
+  <hr>
+  <h3>Videos, (First w/o loop , another with loop)</h3>
+  <div style="display: flex; justify-content: space-around;">
+    <video src="./pics/15462514-uhd_3840_2160_30fps.mp4" width="400px" controls></video>
+    <video src="./pics/15462514-uhd_3840_2160_30fps.mp4" width="400px" controls loop></video>
+  </div>
+  <hr>
+  <h3>Audios, (First w/o loop , another with loop)</h3>
+  <div style="display: flex; justify-content: space-around;">
+    <audio src="./pics/nature-sounds-240504.mp3" width="400px" controls></audio>
+    <audio src="./pics/nature-sounds-240504.mp3" width="400px" controls loop></audio>
+  </div>
+  <hr>
+  <h3>Iframes, (Ned University Location with lazy loading)</h3>
+  <div style="display: flex; justify-content: space-around;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.0603172579795!2d67.11277287393777!3d24.930015042473563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb338b8d4494c91%3A0xf864ed97b4a8ec0e!2sNED%20University%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2s!4v1734933666217!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <hr>
+  <h3>Iframes, (Youtube Video)</h3>
+  <div style="display: flex; justify-content: space-around;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wpAhGhDwWFY?si=pagag0wOOuWNZH1H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <hr>
+</body>
+</html>
