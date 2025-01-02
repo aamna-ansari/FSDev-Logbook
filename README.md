@@ -9,7 +9,7 @@ This repository tracks my journey through the Full-Stack Engineering course. It 
    - [History Of Computer Network](./03_HistoryOfComputerNetworking/HistoryOfCompNet.md)
 3. [Frontend Development](#3-frontend-development)
    - [HTML](./04_Frontend/HTML)
-   - [CSS](#html-and-css)
+   - [CSS](./04_Frontend/CSS)
    - [JavaScript](#javascript)
    - [Physics and Math in Programming](#physics-and-math-in-programming)
    - [3D Animation in Web](#3d-animation-in-web)
