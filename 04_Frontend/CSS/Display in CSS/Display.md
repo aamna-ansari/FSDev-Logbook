@@ -1,5 +1,7 @@
 # CSS Lecture: Inline, Block, and Inline-Block
 
+### 📌 02 January
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Inline Elements](#inline-elements)
