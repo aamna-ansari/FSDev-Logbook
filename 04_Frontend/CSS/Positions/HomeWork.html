@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /* Centering the button */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .button {
+            position: relative;
+            background-color: blue;
+            color: white;
+            height: 50px;
+            width: 100px;
+            border-radius: 10px;
+            margin: 20px;
+            border: none;
+            text-transform: uppercase;
+        }
+
+        .button:hover {
+            background-color: rgb(74, 74, 252);
+        }
+
+        .notification {
+            position: absolute;
+            background-color: red;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            top: -4px;
+            right: -5px;
+        }
+    </style>
+  </head>
+  <body>
+    <button class="button">
+      Click me
+      <div class="notification"></div>
+    </button>
+  </body>
+</html>

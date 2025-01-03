@@ -62,3 +62,6 @@ div {
   height: 100px;
 }
 ```
+
+## Creating a Button with a Red Dot
+![](./button.PNG)
