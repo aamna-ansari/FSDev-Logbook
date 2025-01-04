@@ -39,52 +39,55 @@ nav a {
   position: relative;
 }
 .productCard {
-    background: radial-gradient(circle, rgba(197,223,8,1) 0%, rgba(49,247,79,1) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(197, 223, 8, 1) 0%,
+    rgba(49, 247, 79, 1) 100%
+  );
   box-shadow: 5px 5px 15px grey;
   border-radius: 5px;
   height: 300px;
   width: 230px;
   position: absolute;
-  top:50px;
-  left:-50px
+  top: 50px;
+  left: -50px;
 }
-img{
-    width:256px;
-    position: absolute;
-    top: 15px;
-    left:-50px;
+img {
+  width: 256px;
+  position: absolute;
+  top: 15px;
+  left: -50px;
 }
-.content{
-    position: absolute;
-    left:230px;
-    top:20px;
-    padding: 10px 0px;
+.content {
+  position: absolute;
+  left: 230px;
+  top: 20px;
+  padding: 10px 0px;
 }
-.price{
-    margin-top: 10px;
-    font-size: 20px;
-    color: rgb(241, 55, 55);
+.price {
+  margin-top: 10px;
+  font-size: 20px;
+  color: rgb(241, 55, 55);
 }
-span{
-    font-size: 50px;
-    
+span {
+  font-size: 50px;
 }
-.benefit{
-    margin-top: 10px;
+.benefit {
+  margin-top: 10px;
 }
-.benefit ul{
-    padding: 10px;
+.benefit ul {
+  padding: 10px;
 }
-button{
-    background-color: rgb(241, 55, 55);
-    border: none;
-    border-radius: 5px;
-    color: white;
-    padding: 20px;
-    width: 170px;
-    box-shadow: 5px 5px 15px grey;
+button {
+  background-color: rgb(241, 55, 55);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 20px;
+  width: 170px;
+  box-shadow: 5px 5px 15px grey;
 }
-button:hover{
-    background-color: rgb(218, 12, 12);
-    cursor: pointer;
+button:hover {
+  background-color: rgb(218, 12, 12);
+  cursor: pointer;
 }
