@@ -26,4 +26,19 @@
 - [Exercise 24](#exercise-24)
 
 ## Exercise 1
-![Exercise 1]()
+![Exercise 1](./gifs/1_of_24.gif)
+
+## Exercise 2
+![Exercise 2](./gifs/2_of_24.gif)
+
+## Exercise 3
+![Exercise 3](./gifs/3_of_24.gif)
+
+## Exercise 4
+![Exercise 4](./gifs/4_of_24.gif)
+
+## Exercise 5
+![Exercise 5](./gifs/5_of_24.gif)
+
+## Exercise 6
+![Exercise 6](./gifs/6_of_24.gif)
