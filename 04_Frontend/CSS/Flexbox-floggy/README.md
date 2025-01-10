@@ -66,3 +66,33 @@
 
 ## Exercise 14
 ![Exercise 14](./gifs/14_of_24.gif)
+
+## Exercise 15
+![Exercise 15](./gifs/15_of_24.gif)
+
+## Exercise 16
+![Exercise 16](./gifs/16_of_24.gif)
+
+## Exercise 17
+![Exercise 17](./gifs/17_of_24.gif)
+
+## Exercise 18
+![Exercise 18](./gifs/18_of_24.gif)
+
+## Exercise 19
+![Exercise 19](./gifs/19_of_24.gif)
+
+## Exercise 20
+![Exercise 20](./gifs/20_of_24.gif)
+
+## Exercise 21
+![Exercise 21](./gifs/21_of_24.gif)
+
+## Exercise 22
+![Exercise 22](./gifs/22_of_24.gif)
+
+## Exercise 23
+![Exercise 23](./gifs/23_of_24.gif)
+
+## Exercise 24
+![Exercise 24](./gifs/24_of_24.gif)
