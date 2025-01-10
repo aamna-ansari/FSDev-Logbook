@@ -60,3 +60,9 @@
 
 ## Exercise 12
 ![Exercise 12](./gifs/12_of_24.gif)
+
+## Exercise 13
+![Exercise 13](./gifs/13_of_24.gif)
+
+## Exercise 14
+![Exercise 14](./gifs/14_of_24.gif)
