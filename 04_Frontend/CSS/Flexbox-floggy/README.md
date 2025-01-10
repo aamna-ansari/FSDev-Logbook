@@ -42,3 +42,21 @@
 
 ## Exercise 6
 ![Exercise 6](./gifs/6_of_24.gif)
+
+## Exercise 7
+![Exercise 7](./gifs/7_of_24.gif)
+
+## Exercise 8
+![Exercise 8](./gifs/8_of_24.gif)
+
+## Exercise 9
+![Exercise 9](./gifs/9_of_24.gif)
+
+## Exercise 10
+![Exercise 10](./gifs/10_of_24.gif)
+
+## Exercise 11
+![Exercise 11](./gifs/11_of_24.gif)
+
+## Exercise 12
+![Exercise 12](./gifs/12_of_24.gif)
