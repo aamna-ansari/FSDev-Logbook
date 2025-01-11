@@ -1,0 +1,52 @@
+img {
+    width: 200px;
+  }
+  .right {
+    position: absolute;
+    width: 20px;
+    transform: rotate(-30deg);
+    right: 40px;
+    top: 5px; /* Adjust angle for upward tilt */
+  }
+  .left {
+    position: absolute;
+    width: 20px;
+    transform: rotate(146deg);
+    left: 50px;
+    bottom: -10px;
+  }
+  /* Heading Styles */
+  .heading {
+    font-size: 120px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .cross {
+    color: gray;
+    font-size: 20px;
+    position: absolute;
+    left: 150px;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .cross i {
+    margin-right: 13px;
+  }
+  .timeline {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+  .line {
+    background: #000;
+    width: 250px;
+    height: 2px;
+    margin: 10px;
+  }
