@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.card {
+  width: 430px;
+  height: 450px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.uper {
+  width: 430px;
+  height: 220px;
+  background: linear-gradient(to right, #16222a, #3a6073);
+  position: relative;
+}
+.client {
+  color: white;
+  font-family: "Londrina Outline";
+  font-size: 80px;
+  padding: 10px;
+  text-align: center;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  left: 135px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border: 5px solid #16222a;
+}
+.bottom {
+  padding: 20px;
+  text-align: center;
+  font-family: "Roboto", serif;
+}
+h4 {
+  text-transform: uppercase;
+  color: gray;
+}
+h1,
+p {
+  color: rgb(48, 47, 47);
+}
+p {
+  line-height: 25px;
+  margin-top: 10px;
+}
+i {
+  color: orange;
+  cursor: pointer;
+}
