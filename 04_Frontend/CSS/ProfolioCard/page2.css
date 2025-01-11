@@ -1,0 +1,74 @@
+.structure{
+    border: 2px solid black;
+    margin: 3rem;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* image Card */
+.imageCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 220px;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 5px 5px  rgba(88, 87, 87, 0.5); /* Adjusted shadow for right and bottom */
+}
+.headerCard{
+    margin: 5px;
+    display: flex;
+    gap:50px;
+
+}
+i:nth-child(1){
+    color: red;
+}
+ i:nth-child(2){
+    color: yellow;
+}
+ i:nth-child(3){
+    color: green;
+}
+.profilePic{
+    width: 200px;
+    height: 200px;
+}
+img{
+    width: 190px;
+    margin:5px;
+}
+
+/* Cross */
+.content{
+    border: 2px solid black;
+margin: 20px;
+padding: 10px;
+font-family: "Roboto";
+}
+.topPart{
+    display: flex;
+}
+
+h1{
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    font-size: 30px;
+}
+/* .cross {
+    color: gray;
+    font-size: 20px;
+    position: absolute;
+    left: 150px;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .cross i {
+    margin-right: 13px;
+  } */
