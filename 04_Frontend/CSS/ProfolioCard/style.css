@@ -26,4 +26,16 @@ main {
   position: relative;
   overflow: hidden; /* Ensures content outside the card is hidden */
 }
+.cross {
+  color: gray;
+  font-size: 20px;
+  position: absolute;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cross i {
+  margin-right: 13px;
+}
 

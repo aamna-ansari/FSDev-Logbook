@@ -27,18 +27,10 @@ img {
     color: #000;
   }
   .cross {
-    color: gray;
-    font-size: 20px;
-    position: absolute;
     left: 150px;
-    top: 70px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+   
   }
-  .cross i {
-    margin-right: 13px;
-  }
+  
   .timeline {
     display: flex;
     font-family: "Roboto", sans-serif;
