@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #292929;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Default: 5 columns */
+    grid-template-rows: repeat(4, 1fr);   /* Default: 4 rows */
+    gap: 20px;
+}
+
+.box {
+    background-color: #706f6f28;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+/* Default layout for larger screens */
+#Profile {
+    grid-row: span 2;
+}
+#Profile, #education {
+    grid-column: span 2;
+}
+#heading, #about, #experience, #contact {
+    grid-column: span 3;
+}
+
+
+
+/* Responsive adjustments for smaller screens */
+
+@media (max-width: 700px) {
+    main {
+        grid-template-columns: 1fr; /* Single column layout */
+        padding: 1rem; /* Compact padding */
+    }
+
+    .box {
+        height: auto; /* Adjust box height for readability */
+        padding: 1rem;
+    }
+
+    #Profile, #education, #heading, #about, #experience, #contact {
+        grid-column: span 1; /* Full width */
+        grid-row: auto;      /* Let rows flow naturally */
+    }
+}
