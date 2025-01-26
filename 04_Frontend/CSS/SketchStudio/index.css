@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    height: 100vh;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 0.9;
+    z-index: 2;
+    white-space: nowrap;
+}
+
+.description {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.6;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.image {
+    position: absolute;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image:nth-child(1) { top: 5%; left: 5%; width: 200px; }
+.image:nth-child(2) { top: 5%; right: 0%; width: 180px; }
+.image:nth-child(3) { top: 35%; left: 20%; width: 100px; }
+.image:nth-child(4) { bottom: 30%; right: 15%; width: 220px; }
+.image:nth-child(5) { bottom: 30%; left: 15%; width: 130px; }
+.image:nth-child(6) { top: 10%; left: 50%; width: 110px; }
+.image:nth-child(7) { top: 5%; left: 0%; width: 130px; }
+
+.sketch {
+    position: absolute;
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+.sketch:nth-child(1) { top: 20%; left: 10%; }
+.sketch:nth-child(2) { bottom: 30%; right: 15%; }
+.sketch:nth-child(3) { top: 40%; right: 25%;}
