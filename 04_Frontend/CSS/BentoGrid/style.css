@@ -18,6 +18,9 @@ body {
   font-weight: 700;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+p{
+    font-weight: 500;
+}
 
 .grid-container {
   display: grid;
@@ -33,6 +36,7 @@ body {
   background: #ffff;
   border-radius: var(--card-radius);
   animation: card 2s ease-in-out forwards;
+  text-align: center;
   /* animation: card 1s linear 1; */
 }
 
@@ -65,7 +69,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    
 }
 .amount{
     font-size: 3rem ;
@@ -102,7 +106,22 @@ body {
 .progress75{
 font-size: 1.5rem;
 }
-
+/* Project Views */
+.ProjectViews{
+    padding: 2rem;
+}
+.counterNum{
+    font-size: 3rem;
+}
+.viewCounter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.viewCounter >i{
+    font-size: 2rem;
+    color: #1a1a1a;
+}
 
 @media (max-width: 1024px) {
   .grid-container {
