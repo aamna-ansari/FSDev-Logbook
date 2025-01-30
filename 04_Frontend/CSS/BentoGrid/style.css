@@ -122,6 +122,8 @@ font-size: 1.5rem;
     font-size: 2rem;
     color: #1a1a1a;
 }
+
+
 /* newUsers */
 
 .newUsers{
@@ -130,6 +132,21 @@ font-size: 1.5rem;
     justify-content: center;
     flex-direction: column;
     padding: 1rem 3rem;
+}
+/* agency */
+.agency{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.agency> img{
+    height: auto;
+    width: 75%;
+    position: absolute;
+    top: -8rem;
+    z-index: -1;
 }
 
 /* CUBO */
@@ -181,6 +198,7 @@ font-size: 1.5rem;
     width: 50px;
     height: 40px;
     border-radius: 0.5rem;
+    clip-path: path('M0,0 Q25,10 50,0 L50,40 Q25,30 0,40 Z');
 }
 
 @media (max-width: 1024px) {
