@@ -66,7 +66,6 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 0.6rem;
 }
 .amount{
     font-size: 3rem ;
@@ -82,8 +81,11 @@ body {
 }
 .progress-container circle {
     fill: none;
-    stroke-width: 8;
+    stroke-width: 6;
     stroke-linecap: round;
+}
+.progress-background {
+    stroke: var(--bg-dark);
 }
 .progress-bar {
     stroke: #d9534f;
@@ -96,7 +98,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 9px;
-    font-weight: bold;
+}
+.progress75{
+font-size: 1.5rem;
 }
 
 
