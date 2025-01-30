@@ -9,3 +9,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.grid-container{
+    width: 100vw;
+    height: 100vh;
+    background: var(--bg-dark);
+    border: 2px solid red;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-content: center;
+}
