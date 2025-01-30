@@ -62,12 +62,41 @@ body {
 /* FundingCard Design  */
 .FundingCard {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.title{
     text-align: center;
-    
+    gap: 0.6rem;
+}
+.amount{
+    font-size: 3rem ;
+}
+.progress-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    /* margin: 20px auto; */
+}
+.progress-container svg {
+    transform: rotate(-90deg);
+}
+.progress-container circle {
+    fill: none;
+    stroke-width: 8;
+    stroke-linecap: round;
+}
+.progress-bar {
+    stroke: #d9534f;
+    stroke-dasharray: 251;
+    stroke-dashoffset: calc(251 - (251 * 75) / 100);
+}
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 9px;
+    font-weight: bold;
 }
 
 
