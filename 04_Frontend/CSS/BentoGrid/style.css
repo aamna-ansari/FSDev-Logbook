@@ -1,0 +1,11 @@
+:root{
+    --bg-dark: #1a1a1a;
+    --bg-pink:#FFE5E5;
+    --card-radius: 2rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
