@@ -151,10 +151,9 @@ font-size: 1.5rem;
 }
 
 /* Future DEsign */
-.futureDesign{
+.futureDesign, .fontSection {
     padding: 2rem;
-    display: flex;
-    justify-content: space-between;
+    display: flex; 
     gap: 2rem;
     text-align: start;
 }
@@ -162,6 +161,26 @@ font-size: 1.5rem;
     font-size: 1.8rem; 
     font-weight: 700; 
     margin-bottom: 10px;
+}
+.futureDesign{
+    justify-content: space-between;
+}
+
+/* Font section  */
+.fontSection{
+    flex-direction: column;
+    gap: 0;
+    padding: 1rem 1.5rem;
+}
+.colorBox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.colorSquare{
+    width: 50px;
+    height: 40px;
+    border-radius: 0.5rem;
 }
 
 @media (max-width: 1024px) {
