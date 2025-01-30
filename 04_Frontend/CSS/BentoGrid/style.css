@@ -129,7 +129,25 @@ font-size: 1.5rem;
     align-items: flex-end;
     justify-content: center;
     flex-direction: column;
-    padding: 0 3rem;
+    padding: 1rem 3rem;
+}
+
+/* CUBO */
+.cuboBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+}
+.cuboBox > img{
+    width: 50px;
+    height: 50px;
+}
+.cuboBox > p{
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 @media (max-width: 1024px) {
