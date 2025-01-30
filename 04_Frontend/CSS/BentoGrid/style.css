@@ -31,25 +31,20 @@ body {
   background: #ffff;
   border-radius: var(--card-radius);
   animation: card 2s ease-in-out forwards;
-  /* animation: card 3s linear forwards; */
+  /* animation: card 1s linear 1; */
 }
 
-#box1,
-#box4,
-#box6,
-#box5 {
+#box1,#box4,#box6,#box5 {
   grid-row: span 2;
 }
-#box5,
-#box9 {
+#box5,#box9 {
   grid-column: span 2;
 }
 
-#box1,
-#box5,
-#box9 {
+#box1,#box5,#box9 {
   background: var(--bg-pink);
 }
+/* Animation Create */
 
 @keyframes card {
   from {
@@ -61,6 +56,12 @@ body {
     opacity: 1;
   }
 }
+
+/* FundingCard Design  */
+.FundingCard{
+
+}
+
 
 @media (max-width: 1024px) {
   .grid-container {
