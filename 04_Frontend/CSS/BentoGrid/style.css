@@ -123,6 +123,42 @@ font-size: 1.5rem;
     color: #1a1a1a;
 }
 
+/* Team */
+
+.Team{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 2rem;
+}
+.teamImages{
+  display: flex;
+  position: relative;
+}.description{
+  margin: 3.5rem 0;
+}
+.imageBubble{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid rgb(241, 237, 237);
+  background: url(https://avatars.githubusercontent.com/u/123650396?v=4);
+  background-size: cover;
+  position: absolute;
+  margin-top: 0.5rem;
+}
+.NumberBubble{
+  background: gray;
+  border: gray;
+  padding: 0.9rem;
+  color: #ffff;
+}
+.Bubble1{z-index: 7;}
+.Bubble2{left: 2rem;z-index: 6;}
+.Bubble3{left: 4rem;z-index: 5;}
+.Bubble4{left: 6rem;z-index: 4;}
+.Bubble5{left: 8rem;z-index: 3;}
+
 
 /* newUsers */
 
@@ -202,8 +238,6 @@ font-size: 1.5rem;
 }
 
 /* headingAgency */
-
-
 .headingAgency{
   font-size: 1.2rem;
   background: #1a1a1a;
@@ -228,6 +262,8 @@ font-size: 1.5rem;
   position: relative;
   top: 2rem;
 }
+
+
 
 
 
