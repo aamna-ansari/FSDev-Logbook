@@ -1,75 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bento grid v2.0</title>
-    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdBNwIHpczkw-Peo71wmNPsLd-SqYVTDPa6w&s" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-</head>
-<body>
+    <link
+      rel="shortcut icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdBNwIHpczkw-Peo71wmNPsLd-SqYVTDPa6w&s"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
     <div class="grid-container">
-        <!-- Funding Card -->
-        <div class="box FundingCard" id="box1">
-            <h2 class="title" >First Round of <br> Funding </h2>
-            <div class="progress-container">
-                <svg width="100" height="100" viewBox="0 0 100 100">
-                    <circle class="progress-background" cx="50" cy="50" r="45" />
-                    <circle class="progress-bar" cx="50" cy="50" r="35" />
-                </svg>
-                <div class="progress-text"><span class="progress75">75%</span><br>In progress</div>
-            </div>
-            <p class="amount">2.5K</p>
-        <p class="contributions">263 Contributions in<br>the last year</p>
+      <!-- Funding Card -->
+      <div class="box FundingCard" id="box1">
+        <h2 class="title">
+          First Round of <br />
+          Funding
+        </h2>
+        <div class="progress-container">
+          <svg width="100" height="100" viewBox="0 0 100 100">
+            <circle class="progress-background" cx="50" cy="50" r="45" />
+            <circle class="progress-bar" cx="50" cy="50" r="35" />
+          </svg>
+          <div class="progress-text">
+            <span class="progress75">75%</span><br />In progress
+          </div>
         </div>
-         <!-- Project Views -->
-        <div class="box ProjectViews" id="box2">
-            <div class="viewCounter">
-                <div class="counterNum">4.875</div>
-                <i class="fa-solid fa-heart"></i>
-            </div>
-            <p style="text-align: start;">Project view <br> last year</p>
+        <p class="amount">2.5K</p>
+        <p class="contributions">263 Contributions in<br />the last year</p>
+      </div>
+      <!-- Project Views -->
+      <div class="box ProjectViews" id="box2">
+        <div class="viewCounter">
+          <div class="counterNum">4.875</div>
+          <i class="fa-solid fa-heart"></i>
         </div>
-         <!-- New Users -->
-        <div class="box newUsers" id="box3">
-            <p>New Users</p>
-            <h1 style="font-size: 4.5rem;">57K</h1>
-            <p style="color: rgb(39, 192, 39);">+10%</p>
+        <p style="text-align: start">
+          Project view <br />
+          last year
+        </p>
+      </div>
+      <!-- New Users -->
+      <div class="box newUsers" id="box3">
+        <p>New Users</p>
+        <h1 style="font-size: 4.5rem">57K</h1>
+        <p style="color: rgb(39, 192, 39)">+10%</p>
+      </div>
+      <!-- Team -->
+      <div class="box" id="box4"></div>
+      <!-- Central Image -->
+      <div class="box centralImage" id="box5">
+        <!-- <img src="./images/heropic.png" alt="agency hero pic"> -->
+      </div>
+      <!-- Agency  -->
+      <div class="box agency" id="box6">
+        <div class="headingAgency">smart Digital Agency For Your Business</div>
+      </div>
+      <!-- CUBO Logo -->
+      <div class="box cuboBox" id="box7">
+        <img src="./images/cubo.jpeg" alt="" />
+        <p>CUBO</p>
+      </div>
+      <!-- Font Section -->
+      <div class="box fontSection" id="box8">
+        <h2 style="font-size: 2rem">Font</h2>
+        <p>Sk-Modernist</p>
+        <div class="colorBox">
+          <div class="colorSquare" style="background-color: #535353"></div>
+          <div class="colorSquare" style="background-color: #c4c4c4"></div>
+          <div class="colorSquare" style="background-color: #fb7c7c"></div>
+          <div class="colorSquare" style="background-color: #ffdadb"></div>
         </div>
-        <!-- Team -->
-        <div class="box" id="box4"></div>
-        <!-- Agency Title -->
-        <div class="box agency" id="box5">
-            <img src="./images/heropic.png" alt="agency hero pic">
+      </div>
+      <!-- Future Design -->
+      <div class="box futureDesign" id="box9">
+        <div>
+          <p class="futureText">
+            We Build Future of <br />
+            Design Industry
+          </p>
+          <p>Crafting Meaningful UI UX design</p>
         </div>
-         <!-- Central Image -->
-        <div class="box" id="box6"></div>
-        <!-- CUBO Logo -->
-        <div class="box cuboBox" id="box7">
-            <img src="./images/cubo.jpeg" alt="">
-            <p>CUBO</p>
-        </div>
-        <!-- Font Section -->
-        <div class="box fontSection" id="box8">
-            <h2 style="font-size: 2rem;">Font</h2>
-            <p>Sk-Modernist</p>
-            <div class="colorBox">
-                <div class="colorSquare" style="background-color: #535353;"></div>
-                <div class="colorSquare " style="background-color: #C4C4C4;"></div>
-                <div class="colorSquare" style="background-color: #FB7C7C;"></div>
-                <div class="colorSquare" style="background-color: #FFDADB;"></div>
-            </div>
-        </div>
-          <!-- Future Design -->
-        <div class="box futureDesign" id="box9">
-            <div>
-                <p class="futureText">We Build Future of <br> Design Industry</p>
-                <p>Crafting Meaningful UI UX design</p>
-            </div>
-            <img src="./images/flower.png" width="120px" height="120px" alt="">
-        </div>
-
+        <img src="./images/flower.png" width="120px" height="120px" alt="" />
+      </div>
     </div>
-</body>
+  </body>
 </html>

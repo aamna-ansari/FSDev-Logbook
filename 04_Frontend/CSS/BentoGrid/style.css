@@ -133,15 +133,15 @@ font-size: 1.5rem;
     flex-direction: column;
     padding: 1rem 3rem;
 }
-/* agency */
-.agency{
+/* centralImage" */
+.centralImage{
     position: relative;
     z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.agency> img{
+.centralImage> img{
     height: auto;
     width: 75%;
     position: absolute;
@@ -199,6 +199,9 @@ font-size: 1.5rem;
     height: 40px;
     border-radius: 0.5rem;
     clip-path: path('M0,0 Q25,10 50,0 L50,40 Q25,30 0,40 Z');
+}
+@media (min-width: 1440px) {
+    
 }
 
 @media (max-width: 1024px) {
