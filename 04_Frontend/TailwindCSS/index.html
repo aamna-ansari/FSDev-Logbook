@@ -13,12 +13,14 @@
     />
 
     <!-- CSS -->
-     <link rel="stylesheet" href="./animate.css">
+    <link rel="stylesheet" href="./animate.css" />
   </head>
 
   <body class="h-screen w-full">
     <!-- Header Section -->
-    <header class="border-b-4 flex flex-col sm:flex-row justify-between items-center px-4 py-3 fixed top-0 w-full z-10 bg-white">
+    <header
+      class="border-b-4 flex flex-col sm:flex-row justify-between items-center px-4 py-3 fixed top-0 w-full z-10 bg-white"
+    >
       <div>
         <!-- Responsive Logo Image -->
         <img
@@ -37,18 +39,14 @@
               <a href="index.html">About Me</a>
             </li>
             <li class="hover:text-rose-700 transition duration-500">
-              <a href="#">Services</a>
+              <a href="#services">Services</a>
             </li>
             <li class="hover:text-rose-700 transition duration-500">
               <a href="#">Portfolio</a>
             </li>
             <li>
-                <button class="text-rose-700 cursor-pointer">
-                    Hire Me
-                </button>
+              <button class="text-rose-700 cursor-pointer">Hire Me</button>
             </li>
-            
-            
           </ul>
         </nav>
       </div>
@@ -57,42 +55,182 @@
     <!-- Main Section -->
     <main class="w-full h-full flex justify-center items-center pt-20">
       <section class="heroSection m-3 text-center">
-          <div class="text-xl mb-4 animate-slideFromLeft">____ Welcome to my world  ___</div>
-          <!-- Heading Meet AaMna -->
-        <h1 class="text-3xl sm:text-5xl animate-slideFromTop">Meet <span class="font-extrabold text-rose-700">AaMna!</span></h1>
+        <div class="text-xl mb-4 animate-slideFromLeft">
+          ____ Welcome to my world ___
+        </div>
+        <!-- Heading Meet AaMna -->
+        <h1 class="text-3xl sm:text-5xl animate-slideFromTop">
+          Meet <span class="font-extrabold text-rose-700">AaMna!</span>
+        </h1>
         <!-- {Paragraph} -->
-        <p class="px-5 sm:px-25 md:px-50 py-5 text-center ">
-          A passionate <em><b>frontend developer</b></em> and a self-motivated learner, always eager to explore new technologies. 
-          With a strong foundation in <em>HTML, CSS, JavaScript, React, and Next.js</em>, I specialize in crafting responsive and user-friendly web applications. 
-          I love contributing to open-source projects. My goal is to build impactful solutions that enhance user experiences and push the boundaries of web development.
+        <p class="px-5 sm:px-25 md:px-50 py-5 text-center">
+          A passionate <em><b>frontend developer</b></em> and a self-motivated
+          learner, always eager to explore new technologies. With a strong
+          foundation in <em>HTML, CSS, JavaScript, React, and Next.js</em>, I
+          specialize in crafting responsive and user-friendly web applications.
+          I love contributing to open-source projects. My goal is to build
+          impactful solutions that enhance user experiences and push the
+          boundaries of web development.
         </p>
-        <div class="flex justify-center gap-x-6 ">
-            <i class="fa-brands fa-linkedin-in cursor-pointer hover:text-rose-700"><a href="https://www.linkedin.com/in/aamnansari/" target="_blank" ></a></i>
-            <i class="fa-solid fa-envelope cursor-pointer hover:text-rose-700"><a href="mailto:theaamnansari@gmail.com" target="_blank" ></a></i>
-            <i class="fa-brands fa-github cursor-pointer hover:text-rose-700"><a href="https://github.com/aamna-ansari" target="_blank" ></a></i>
+        <div class="flex justify-center gap-x-6">
+          <i class="fa-brands fa-linkedin-in cursor-pointer hover:text-rose-700"
+            ><a
+              href="https://www.linkedin.com/in/aamnansari/"
+              target="_blank"
+            ></a
+          ></i>
+          <i class="fa-solid fa-envelope cursor-pointer hover:text-rose-700"
+            ><a href="mailto:theaamnansari@gmail.com" target="_blank"></a
+          ></i>
+          <i class="fa-brands fa-github cursor-pointer hover:text-rose-700"
+            ><a href="https://github.com/aamna-ansari" target="_blank"></a
+          ></i>
         </div>
       </section>
     </main>
 
     <!-- Services Section -->
-    <section id="services" class="border bg-black w-full px-8 py-6 flex justify-center">
-        <!-- Grid layout for cards -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- Card Divs -->
-            <div class="card w-[240px] h-[240px] shadow-xl bg-stone-100">
-                <!-- content in side div -->
-                <div class="p-7">
-                    <i class="fa-brands fa-github cursor-pointer text-4xl text-rose-700"></i>
-                    <h3 class="font-semibold my-3 font-mono ">Git Version Control</h3>
-                    <p class="text-sm  ">It is a long establish fact that a rerader will be distracted by the readable content of a page when looking at its layout</p>
-                </div>
-            </div>
-            
-            
+    <section
+      id="services"
+      class="border bg-black w-full px-8 py-6 flex justify-center"
+    >
+      <!-- Grid layout for cards -->
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 cursor-pointer"
+      >
+        <!-- service card 1 -->
+        <div
+          class="card w-[240px] h-[240px] shadow-xl bg-stone-100 hover:bg-red-100 hover:rounded-lg"
+        >
+          <!-- card 1 -->
+          <div class="p-7">
+            <i
+              class="fa-brands fa-github cursor-pointer text-4xl text-rose-700"
+            ></i>
+            <h3 class="font-semibold my-3 font-mono">Git Version Control</h3>
+            <p class="text-sm">
+              It is a long establish fact that a rerader will be distracted by
+              the readable content of a page when looking at its layout
+            </p>
+          </div>
         </div>
-    </section>
-    
-    
-</body>
 
+        <!-- Service Card 2 -->
+        <div
+          class="card w-[240px] h-[240px] shadow-xl bg-stone-100 hover:bg-red-100 hover:rounded-lg"
+        >
+          <!-- card2 -->
+          <div class="p-7">
+            <i
+              class="fa-solid fa-globe cursor-pointer text-4xl text-rose-700"
+            ></i>
+            <h3 class="font-semibold my-3 font-mono">Web Development</h3>
+            <p class="text-sm">
+              It is a long establish fact that a rerader will be distracted by
+              the readable content of a page when looking at its layout
+            </p>
+          </div>
+        </div>
+        <!-- Service Card 3 -->
+        <div
+          class="card w-[240px] h-[240px] shadow-xl bg-stone-100 hover:bg-red-100 hover:rounded-lg"
+        >
+          <!-- card3 -->
+          <div class="p-7">
+            <i
+              class="fa-solid fa-database cursor-pointer text-4xl text-rose-700"
+            ></i>
+            <h3 class="font-semibold my-3 font-mono">Backend Developement</h3>
+            <p class="text-sm">
+              It is a long establish fact that a rerader will be distracted by
+              the readable content of a page when looking at its layout
+            </p>
+          </div>
+        </div>
+
+        <!-- Service Card 4 -->
+        <div
+          class="card w-[240px] h-[240px] shadow-xl bg-stone-100 hover:bg-red-100 hover:rounded-lg"
+        >
+          <!-- card4 -->
+          <div class="p-7">
+            <i
+              class="fa-solid fa-mobile-screen cursor-pointer text-4xl text-rose-700"
+            ></i>
+            <h3 class="font-semibold my-3 font-mono">Mobile Application</h3>
+            <p class="text-sm">
+              It is a long establish fact that a rerader will be distracted by
+              the readable content of a page when looking at its layout
+            </p>
+          </div>
+        </div>
+        <!-- service card 5 -->
+        <div
+          class="card w-[240px] h-[240px] shadow-xl bg-stone-100 hover:bg-red-100 hover:rounded-lg"
+        >
+          <!-- card 5 -->
+          <div class="p-7">
+            <i
+              class="fa-solid fa-camera cursor-pointer text-4xl text-rose-700"
+            ></i>
+            <h3 class="font-semibold my-3 font-mono">Photography</h3>
+            <p class="text-sm">
+              It is a long establish fact that a rerader will be distracted by
+              the readable content of a page when looking at its layout
+            </p>
+          </div>
+        </div>
+
+        <!-- Service Card 6 -->
+        <div
+          class="card w-[240px] h-[240px] shadow-xl bg-stone-100 hover:bg-red-100 hover:rounded-lg"
+        >
+          <!-- card6 -->
+          <div class="p-7">
+            <i
+              class="fa-solid fa-code cursor-pointer text-4xl text-rose-700"
+            ></i>
+            <h3 class="font-semibold my-3 font-mono">Web Design</h3>
+            <p class="text-sm">
+              It is a long establish fact that a rerader will be distracted by
+              the readable content of a page when looking at its layout
+            </p>
+          </div>
+        </div>
+        <!-- Service Card 7 -->
+        <div
+          class="card w-[240px] h-[240px] shadow-xl bg-stone-100 hover:bg-red-100 hover:rounded-lg"
+        >
+          <!-- card7 -->
+          <div class="p-7">
+            <i
+              class="fa-solid fa-bolt-lightning cursor-pointer text-4xl text-rose-700"
+            ></i>
+            <h3 class="font-semibold my-3 font-mono">Branding</h3>
+            <p class="text-sm">
+              It is a long establish fact that a rerader will be distracted by
+              the readable content of a page when looking at its layout
+            </p>
+          </div>
+        </div>
+
+        <!-- Service Card 8 -->
+        <div
+          class="card w-[240px] h-[240px] shadow-xl bg-stone-100 hover:bg-red-100 hover:rounded-lg"
+        >
+          <!-- card8 -->
+          <div class="p-7">
+            <i
+              class="fa-solid fa-chart-simple cursor-pointer text-4xl text-rose-700"
+            ></i>
+            <h3 class="font-semibold my-3 font-mono">Marketing</h3>
+            <p class="text-sm">
+              It is a long establish fact that a rerader will be distracted by
+              the readable content of a page when looking at its layout
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
