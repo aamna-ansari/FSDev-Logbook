@@ -12,5 +12,43 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
   </head>
-  <body></body>
+  <body class="h-screen w-full">
+    <!-- Header Section -->
+    <header
+      class="border-b-4 flex flex-col sm:flex-row justify-between items-center px-4 py-3"
+    >
+      <div>
+        <!-- Responsive Logo Image -->
+        <img
+          class="w-12 h-12 sm:w-16 sm:h-16 rounded-full cursor-pointer"
+          src="https://avatars.githubusercontent.com/u/123650396?v=4"
+          alt="Profile"
+        />
+      </div>
+      <!-- Navigation Menu -->
+      <div>
+        <nav>
+          <ul
+            class="flex gap-x-6 space-y-2 sm:space-y-0 font-semibold cursor-pointer text-center"
+          >
+            <li class="hover:text-rose-700 duration-500">
+              <a href="#">About Me</a>
+            </li>
+            <li class="hover:text-rose-700 transition duration-500">
+              <a href="#">Services</a>
+            </li>
+            <li class="hover:text-rose-700 transition duration-500">
+              <a href="#">Portfolio</a>
+            </li>
+            <button class="text-rose-700">Hire Me</button>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="bg-red-900 w-full h-[]">
+      <section class="heroSection"></section>
+    </main>
+  </body>
 </html>
