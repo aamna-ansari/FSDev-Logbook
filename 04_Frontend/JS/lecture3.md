@@ -56,7 +56,6 @@ console.log(age); // 26
 
 let age = 30; // Error: Cannot redeclare variable in the same scope
 ```
-
 **const**
 
 - Also introduced in ES6.
