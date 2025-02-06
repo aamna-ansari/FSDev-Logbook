@@ -44,7 +44,7 @@ console.log(name); // Bob
 ```
 
 **let**
-- Introduced in ES6 (2015).
+- Introduced in ES6 **(2015)**.
 - It is block-scoped, meaning it is only accessible within {} where it is defined.
 - It can be updated but cannot be redeclared in the same scope.
 
