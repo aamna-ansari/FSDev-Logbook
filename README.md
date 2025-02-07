@@ -10,7 +10,7 @@ This repository tracks my journey through the Full-Stack Engineering course. It 
 3. [Frontend Development](#3-frontend-development)
    - [HTML](./04_Frontend/HTML)
    - [CSS](./04_Frontend/CSS)
-   - [JavaScript](#javascript)
+   - [JavaScript](./04_Frontend/JS)
    - [Physics and Math in Programming](#physics-and-math-in-programming)
    - [3D Animation in Web](#3d-animation-in-web)
    - [Frontend Library](#frontend-library)
