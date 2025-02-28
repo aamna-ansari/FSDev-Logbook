@@ -34,4 +34,12 @@ function whatAmI(input) {
 console.log(whatAmI('AaMna'));
 console.log(whatAmI(1));
 
- 
+//  Task 4:
+// Write a function isItTruthy that takes an input and returns "It's truthy!" if the value is truthy in JavaScript, or "It's falsey!" if it's falsey.
+
+function isItTruthy(input) {
+    return input ? "It's truthy" : "It's falsey";
+}
+console.log(isItTruthy(''));
+console.log(isItTruthy('hello'));
+
