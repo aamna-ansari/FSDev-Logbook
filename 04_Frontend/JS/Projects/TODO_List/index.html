@@ -8,7 +8,24 @@
     <title>TODO_List</title>
 </head>
 <body>
-    
+    <div id="app">
+        <div class="max-w-md mx-auto mt-10 p-6 bg-white rounded-lg shadow-lg">
+            <h1 class="text-2xl font-bold mb-6 text-gray-800">Todo List</h1>
+            
+            <div class="flex gap-2 mb-6">
+              <input 
+                type="text" 
+                id="todoInput" 
+                class="flex-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Add a new task..."
+              >
+              <button 
+                class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
+              >
+                Add
+              </button>
+            </div>
+    </div>
 </body>
 <script src="./index.js"></script>
 </html>
