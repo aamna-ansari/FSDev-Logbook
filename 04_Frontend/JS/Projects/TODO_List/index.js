@@ -41,4 +41,5 @@ todoButton.addEventListener ('click', ()=>{
         newTodo.classList.toggle('text-gray-500');
     // If you want to toggle multiple classes at the same time, using .classList.toggle() won’t work efficiently because it only applies one class at a time. Instead, you should use .classList.add() and .classList.remove() to manage multiple classes.
     });
+    
 });
