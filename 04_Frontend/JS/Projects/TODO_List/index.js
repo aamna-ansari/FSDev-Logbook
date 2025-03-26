@@ -34,8 +34,11 @@ todoButton.addEventListener ('click', ()=>{
     newTodo.querySelector('.deleteBtn').addEventListener('click', () => {
         newTodo.remove();
     });
-})
 
-
-
-let getInputValue = todoInput.value;
+    // addd event listener for check button
+    newTodo.querySelector('input').addEventListener('click', () => {
+        newTodo.classList.toggle('line-through');
+        newTodo.classList.toggle('text-gray-500');
+    // If you want to toggle multiple classes at the same time, using .classList.toggle() won’t work efficiently because it only applies one class at a time. Instead, you should use .classList.add() and .classList.remove() to manage multiple classes.
+    });
+});
