@@ -11,6 +11,7 @@ let todoButton = document.querySelector('#todoButton');
 
 todoButton.addEventListener ('click', ()=>{
     let getInputValue = todoInput.value;
+    if (getInputValue === '') return;
     let newTodo = document.createElement('li');
     newTodo.className = 'flex items-center gap-2 p-3 bg-gray-50 rounded-lg'
     newTodo.innerHTML = `<input 
@@ -21,7 +22,7 @@ todoButton.addEventListener ('click', ()=>{
                   ${getInputValue}
                 </span>
                 <button 
-                  class="text-red-500 hover:text-red-700 cursor-pointer"
+                  class="deleteBtn text-red-500 hover:text-red-700 cursor-pointer"
                 >
                   ❌
                 </button>`
