@@ -16,7 +16,7 @@ todoButton.addEventListener ('click', ()=>{
     newTodo.className = 'flex items-center gap-2 p-3 bg-gray-50 rounded-lg'
     newTodo.innerHTML = `<input 
                   type="checkbox" 
-                  class="w-5 h-5 text-blue-500 rounded focus:ring-blue-500 cursor-pointer"
+                  class="checkbox w-5 h-5 text-blue-500 rounded focus:ring-blue-500 cursor-pointer"
                 >
                 <span class="flex-1">
                   ${getInputValue}
@@ -36,10 +36,10 @@ todoButton.addEventListener ('click', ()=>{
     });
 
     // addd event listener for check button
-    newTodo.querySelector('input').addEventListener('click', () => {
+    newTodo.querySelector('.checkbox').addEventListener('click', () => {
         newTodo.classList.toggle('line-through');
         newTodo.classList.toggle('text-gray-500');
     // If you want to toggle multiple classes at the same time, using .classList.toggle() won’t work efficiently because it only applies one class at a time. Instead, you should use .classList.add() and .classList.remove() to manage multiple classes.
     });
-    
+
 });
