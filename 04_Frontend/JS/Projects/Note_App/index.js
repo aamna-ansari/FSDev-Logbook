@@ -23,4 +23,9 @@ addNoteButton.addEventListener("click", () => {
   notesList.appendChild(noteRender);
   noteTitle.value = "";
   noteInput.value = "";
+
+  // Add event listener for delete button
+  noteRender.querySelector('.deleteBtn').addEventListener('click', () => {
+    noteRender.remove();
+});
 });
