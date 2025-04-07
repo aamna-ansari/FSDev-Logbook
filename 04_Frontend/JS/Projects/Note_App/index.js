@@ -7,12 +7,14 @@ let colorButtons = document.querySelectorAll("[data-color]");
 let selectedColor = "bg-white";
 // Handle color selection
 colorButtons.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      selectedColor = btn.getAttribute("data-color");
-    });
+  btn.addEventListener("click", () => {
+    selectedColor = btn.getAttribute("data-color");
   });
+});
 
-let date = new Date().toLocaleString()
+let date = new Date().toLocaleString();
+
+// click on button to add note by using event listener
 addNoteButton.addEventListener("click", () => {
   let getNoteTitle = noteTitle.value;
   let getNoteInput = noteInput.value;
@@ -36,21 +38,19 @@ addNoteButton.addEventListener("click", () => {
   noteInput.value = "";
 
   // Add event listener for delete button
-  noteRender.querySelector('.deleteBtn').addEventListener('click', () => {
+  noteRender.querySelector(".deleteBtn").addEventListener("click", () => {
     noteRender.remove();
-});
+  });
 
-// Edit 
-noteRender.querySelector(".editBtn").addEventListener("click", () => {
-    // Load content back into main input fields
+  // Edit
+  noteRender.querySelector(".editBtn").addEventListener("click", () => {
+    // content back into main input fields
     noteTitle.value = getNoteTitle;
     noteInput.value = getNoteInput;
     addNoteButton.textContent = "Update Note";
-    // Remove the current note so the edited one can be re-added
+    
     noteRender.remove();
   });
 
   addNoteButton.textContent = "Add Note";
-
-
 });
