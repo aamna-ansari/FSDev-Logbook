@@ -3,6 +3,7 @@ let noteInput = document.querySelector("#noteInput");
 let addNoteButton = document.querySelector("#addNote");
 let notesList = document.querySelector("#notesList");
 
+let date = new Date().toLocaleString()
 addNoteButton.addEventListener("click", () => {
   let getNoteTitle = noteTitle.value;
   let getNoteInput = noteInput.value;
@@ -19,6 +20,7 @@ addNoteButton.addEventListener("click", () => {
     </div>
     <h2 class="text-lg font-bold">${getNoteTitle}</h2>
     <p class="text-gray-700 whitespace-pre-wrap break-words">${getNoteInput}</p>
+    <p class="text-sm text-gray-500 mt-2">${date}</p>
  `;
   notesList.appendChild(noteRender);
   noteTitle.value = "";
@@ -28,4 +30,6 @@ addNoteButton.addEventListener("click", () => {
   noteRender.querySelector('.deleteBtn').addEventListener('click', () => {
     noteRender.remove();
 });
+
+
 });
