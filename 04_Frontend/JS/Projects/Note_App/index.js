@@ -12,7 +12,7 @@ addNoteButton.addEventListener("click", () => {
   noteRender.className =
     "relative mx-h-60 mb-6 bg-white p-6 rounded-lg shadow transition-colors";
   noteRender.innerHTML = `<div class="absolute top-3 right-3 flex gap-2">
-    <button class="text-xl text-gray-500 hover:text-blue-700 cursor-pointer">
+    <button class="text-xl text-gray-500 hover:text-blue-700 cursor-pointer editBtn">
     <i class="fa-solid fa-pen-to-square"></i>
     </button>
     
@@ -30,6 +30,18 @@ addNoteButton.addEventListener("click", () => {
   noteRender.querySelector('.deleteBtn').addEventListener('click', () => {
     noteRender.remove();
 });
+
+// Edit functionality
+noteRender.querySelector(".editBtn").addEventListener("click", () => {
+    // Load content back into main input fields
+    noteTitle.value = getNoteTitle;
+    noteInput.value = getNoteInput;
+    addNoteButton.textContent = "Update Note";
+    // Remove the current note so the edited one can be re-added
+    noteRender.remove();
+  });
+
+  addNoteButton.textContent = "Add Note";
 
 
 });
