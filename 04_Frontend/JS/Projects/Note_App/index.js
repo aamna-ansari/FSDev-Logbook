@@ -2,6 +2,15 @@ let noteTitle = document.querySelector("#noteTitle");
 let noteInput = document.querySelector("#noteInput");
 let addNoteButton = document.querySelector("#addNote");
 let notesList = document.querySelector("#notesList");
+let colorButtons = document.querySelectorAll("[data-color]");
+
+let selectedColor = "bg-white";
+// Handle color selection
+colorButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      selectedColor = btn.getAttribute("data-color");
+    });
+  });
 
 let date = new Date().toLocaleString()
 addNoteButton.addEventListener("click", () => {
@@ -9,8 +18,8 @@ addNoteButton.addEventListener("click", () => {
   let getNoteInput = noteInput.value;
   if (getNoteTitle === "" || getNoteInput === "") return;
   let noteRender = document.createElement("div");
-  noteRender.className =
-    "relative mx-h-60 mb-6 bg-white p-6 rounded-lg shadow transition-colors";
+  noteRender.className = `relative mx-h-60 mb-6 ${selectedColor} p-6 rounded-lg shadow transition-colors`;
+
   noteRender.innerHTML = `<div class="absolute top-3 right-3 flex gap-2">
     <button class="text-xl text-gray-500 hover:text-blue-700 cursor-pointer editBtn">
     <i class="fa-solid fa-pen-to-square"></i>
@@ -31,7 +40,7 @@ addNoteButton.addEventListener("click", () => {
     noteRender.remove();
 });
 
-// Edit functionality
+// Edit 
 noteRender.querySelector(".editBtn").addEventListener("click", () => {
     // Load content back into main input fields
     noteTitle.value = getNoteTitle;
