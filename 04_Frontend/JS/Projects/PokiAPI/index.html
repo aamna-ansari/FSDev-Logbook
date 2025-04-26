@@ -28,18 +28,18 @@
 
       let pokeSearch = pokeInput.value.toLowerCase(); // get input value
 
-      fetch(`https://api.github.com/users/${pokeSearch}`)
+      fetch(`https://jsonplaceholder.typicode.com/users/${pokeSearch}`)
         .then(response => response.json())
         .then(data => {
-          let pokeName = data.login;
-          let pokeId = data.followers;
+          let pokeName = data.name;
+          let pokeId = data.email;
 
           pokeNameDisplay.textContent = `Name: ${pokeName}`;
           pokeIdDisplay.textContent = `ID: ${pokeId}`;
         })
         .catch(error => {
           console.error('Error:', error);
-          pokeNameDisplay.textContent = 'User  not found!';
+          pokeNameDisplay.textContent = 'User not found!';
           pokeIdDisplay.textContent = '';
         });
     });
