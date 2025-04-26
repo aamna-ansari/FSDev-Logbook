@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PokeAPI</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokeAPI</title>
 </head>
 <body>
-    <!-- create a interface for fetch -->
+
+  <h1>PokeAPI</h1>
+  <form id="poke-form">
+    <input type="text" id="poke-input" placeholder="Enter Pokemon name or ID" required>
+    <button type="submit">Search</button>
+  </form>
+
+  <!-- display Data -->
+  <h1 id="poke-name"></h1>
+  <h3 id="poke-id"></h3>
+
+  <script>
+    const pokeForm = document.getElementById('poke-form');
+    const pokeInput = document.getElementById('poke-input');
+    const pokeNameDisplay = document.getElementById('poke-name');
+    const pokeIdDisplay = document.getElementById('poke-id');
+
+    pokeForm.addEventListener('submit', function(event) {
+      event.preventDefault(); // stop form from refreshing the page
+
+      let pokeSearch = pokeInput.value.toLowerCase(); // get input value
+
+      fetch(`https://pokeapi.co/api/v2/pokemon/pikachu${pokeSearch}`)
+        .then(response => response.json())
+        .then(data => {
+          let pokeName = data.name;
+          let pokeId = data.id;
+
+          pokeNameDisplay.textContent = `Name: ${pokeName}`;
+          pokeIdDisplay.textContent = `ID: ${pokeId}`;
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          pokeNameDisplay.textContent = 'Pokemon not found!';
+          pokeIdDisplay.textContent = '';
+        });
+    });
+  </script>
+
 </body>
 </html>
