@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CanvasAPI</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: cadetblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      #myCanvas {
+        background-color: whitesmoke;
+        border-radius: 15px;
+      }
+    </style>
+    <!-- Canvas -->
+    <canvas id="myCanvas" width="400" height="300"></canvas>
+
+    <!-- JavaScript -->
+    <script>
+      // Step 1: Find the Canvas Element
+      const canvas = document.getElementById("myCanvas");
+      // Step 2: Create a Drawing Object
+      const ctx = canvas.getContext("2d");
+      // Step 3: Draw a Rectangle
+      ctx.fillStyle = "red";
+    </script>
+  </body>
 </html>
